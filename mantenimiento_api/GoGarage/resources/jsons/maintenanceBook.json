@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "vehicle": 1,
+  "local": 1,
+  "service": 1,
+  "date": "2016-01-01",
+  "price": 60.0,
+  "kilometers": 120005,
+  "created_at": "2015-12-29T13:16:39.969909Z",
+  "updated_at": "2015-12-29T13:16:39.970137Z"
+}

@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  Table Editable Model
+//
+//  Created by Ricardo Maqueda Martinez on 14/01/16.
+//  Copyright © 2016 Ricardo Maqueda Martinez. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Availability.h>
+
+#ifndef __IPHONE_7_0
+    #warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+    #ifdef __OBJC__
+        #import <UIKit/UIKit.h>
+        #import <Foundation/Foundation.h>
+        #import <libextobjc/EXTScope.h>
+    #endif
+
+#endif
+
+

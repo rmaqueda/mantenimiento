@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SelectOption" rowHeight="256" id="0Y0-C6-OJh" customClass="MOLSelectDateTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="256"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0Y0-C6-OJh" id="T7w-gY-Dfs">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="255"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Bz-6D-VeC">
+                        <rect key="frame" x="8" y="8" width="33" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bcN-0f-zpr">
+                        <rect key="frame" x="0.0" y="58" width="320" height="197"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="37T-hD-9jV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="197"/>
+                                <date key="date" timeIntervalSinceReferenceDate="474707820.65468597">
+                                    <!--2016-01-17 07:17:00 +0000-->
+                                </date>
+                            </datePicker>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="37T-hD-9jV" secondAttribute="trailing" id="4qG-Uz-aDJ"/>
+                            <constraint firstItem="37T-hD-9jV" firstAttribute="leading" secondItem="bcN-0f-zpr" secondAttribute="leading" id="Phm-EI-hua"/>
+                            <constraint firstItem="37T-hD-9jV" firstAttribute="top" secondItem="bcN-0f-zpr" secondAttribute="top" id="UiP-jF-D7G"/>
+                            <constraint firstAttribute="height" constant="197" id="gJU-si-UEx"/>
+                            <constraint firstAttribute="bottom" secondItem="37T-hD-9jV" secondAttribute="bottom" id="kXc-6g-FVp"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Placeholder text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S1u-IG-N65">
+                        <rect key="frame" x="8" y="32" width="99" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="S1u-IG-N65" firstAttribute="leading" secondItem="T7w-gY-Dfs" secondAttribute="leading" constant="8" id="5cT-qM-DKb"/>
+                    <constraint firstItem="S1u-IG-N65" firstAttribute="top" secondItem="8Bz-6D-VeC" secondAttribute="bottom" constant="8" id="7B3-B4-4BM"/>
+                    <constraint firstAttribute="trailing" secondItem="bcN-0f-zpr" secondAttribute="trailing" id="IZu-li-ieH"/>
+                    <constraint firstItem="8Bz-6D-VeC" firstAttribute="top" secondItem="T7w-gY-Dfs" secondAttribute="top" constant="8" id="Lif-mV-VCk"/>
+                    <constraint firstItem="bcN-0f-zpr" firstAttribute="leading" secondItem="T7w-gY-Dfs" secondAttribute="leading" id="SOa-c3-nc1"/>
+                    <constraint firstItem="8Bz-6D-VeC" firstAttribute="leading" secondItem="T7w-gY-Dfs" secondAttribute="leading" constant="8" id="UMU-Tu-IMb"/>
+                    <constraint firstAttribute="bottom" secondItem="bcN-0f-zpr" secondAttribute="bottom" id="jiU-vX-JgO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentViewHeight" destination="gJU-si-UEx" id="Akk-CG-Li0"/>
+                <outlet property="datePicker" destination="37T-hD-9jV" id="41R-1r-FHO"/>
+                <outlet property="detail" destination="S1u-IG-N65" id="qYk-wX-GMW"/>
+                <outlet property="label" destination="8Bz-6D-VeC" id="6bo-pQ-ov2"/>
+            </connections>
+            <point key="canvasLocation" x="565" y="279"/>
+        </tableViewCell>
+    </objects>
+</document>

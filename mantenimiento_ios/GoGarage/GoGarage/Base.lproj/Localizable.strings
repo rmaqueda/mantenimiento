@@ -1,0 +1,70 @@
+/* 
+  Localizable.strings
+  GoGarage
+
+  Created by Ricardo Maqueda Martinez on 15/01/16.
+  Copyright © 2016 Ricardo Maqueda Martinez. All rights reserved.
+*/
+//VEHICLE
+"image" = "Image";
+"nick" = "Nick";
+"brand" = "Brand";
+"model" = "Model";
+"color" = "Color";
+"registrationNumber" = "Registration Number";
+"chassisNumber" = "Chassis Numner";
+"manufacturedDate" = "Manufactured Date";
+"vehicleDescription" = "Description";
+"cilindrada" = "Cilindrada";
+
+"placeholder_image" = "Select image";
+"placeholder_nick" = "Enter Nick";
+"placeholder_brand" = "Enter Brand";
+"placeholder_model" = "Enter Model";
+"placeholder_color" = "Enter Color";
+"placeholder_registrationNumber" = "Enter Registration Number";
+"placeholder_chassisNumber" = "Enter Chassis Numner";
+"placeholder_manufacturedDate" = "Select Manufactured Date";
+"placeholder_vehicleDescription" = "Enter Vehicle Description";
+
+//SERVICE
+"type" = "Service type";
+"serviceDescription" = "Description";
+
+"placeholder_type" = "Enter service type";
+"placeholder_serviceDescription" = "Enter service description";
+
+//LOCAL
+"name" = "Local Name";
+"contact" = "Contact person name";
+"telephone" = "Telephone";
+"address" = "Address";
+"localDescription" = "Description";
+
+"placeholder_name" = "Enter local name";
+"placeholder_contact" = "Enter contact person name";
+"placeholder_telephone" = "Enter telephone";
+"placeholder_address" = "Enter address";
+"placeholder_localDescription" = "Enter description";
+
+//MAINTENANCE
+"vehicleId" = "Vehicle";
+"localId" = "Local";
+"serviceId" = "Service";
+"date" = "Date";
+"price" = "Price";
+"kilometers" = "Kilometers";
+
+"placeholder_vehicelId" = "Select vehicle";
+"placeholder_localId" = "Select local";
+"placeholder_serviceId" = "Select service";
+"placeholder_date" = "Enter date";
+"placeholder_price" = "Enter price";
+"placeholder_kilometers" = "Enter kilometers";
+
+"vehicle" = "Vehicle";
+"local" = "Local";
+"service" = "Service";
+"placeholder_vehicle" = "Select vehicle";
+"placeholder_local" = "Select local";
+"placeholder_service" = "Select service";

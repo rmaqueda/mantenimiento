@@ -1,0 +1,29 @@
+platform :ios, '7.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'GoGarage' do
+    pod 'AFNetworking', '~> 3.0.0-beta.3'
+    pod 'libextobjc', '~> 0.4.1'
+    pod 'Mantle', '~> 2.0.6'
+    pod 'MTLManagedObjectAdapter', '~> 1.0.0.1'
+    pod 'SDWebImage', '~>3.7'
+    pod 'AFMInfoBanner', '~> 1.2.1'
+    pod 'SVProgressHUD'
+    pod 'APParallaxHeader', '~> 0.1.6'
+end
+
+target 'GoGarageTests' do
+
+end
+
+target 'GoGarageUITests' do
+
+end
+
+target 'GoGaragePerformance' do
+    pod 'AFNetworking', '~> 3.0.0-beta.3'
+    pod 'libextobjc', '~> 0.4.1'
+    pod 'Mantle', '~> 2.0.6'
+end
+

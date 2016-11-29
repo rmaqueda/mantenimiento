@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="EnterValue" id="wic-Z9-G4L" customClass="MOLEnterValueTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wic-Z9-G4L" id="dsB-PY-ML7">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPD-UY-Gy8">
+                        <rect key="frame" x="8" y="8" width="33" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EUR" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMS-6J-Ee4">
+                        <rect key="frame" x="92" y="35" width="21" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Placeholder" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Aqe-Yl-E3u">
+                        <rect key="frame" x="8" y="32" width="76" height="19"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardType="decimalPad" returnKeyType="next"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="sPD-UY-Gy8" firstAttribute="top" secondItem="dsB-PY-ML7" secondAttribute="top" constant="8" id="9A2-fU-sK8"/>
+                    <constraint firstAttribute="bottom" secondItem="bMS-6J-Ee4" secondAttribute="bottom" constant="12" id="Ohm-sh-rdw"/>
+                    <constraint firstItem="bMS-6J-Ee4" firstAttribute="leading" secondItem="Aqe-Yl-E3u" secondAttribute="trailing" constant="8" id="PEu-vm-6r6"/>
+                    <constraint firstAttribute="bottom" secondItem="Aqe-Yl-E3u" secondAttribute="bottom" constant="8" id="XAG-vM-R5l"/>
+                    <constraint firstItem="Aqe-Yl-E3u" firstAttribute="leading" secondItem="dsB-PY-ML7" secondAttribute="leading" constant="8" id="hp4-Nt-LY1"/>
+                    <constraint firstItem="sPD-UY-Gy8" firstAttribute="leading" secondItem="dsB-PY-ML7" secondAttribute="leading" constant="8" id="rF1-zj-nxe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="label" destination="sPD-UY-Gy8" id="EsH-xP-I09"/>
+                <outlet property="suffixLabel" destination="bMS-6J-Ee4" id="hiP-8p-Dl1"/>
+                <outlet property="textField" destination="Aqe-Yl-E3u" id="Z1r-HH-W4r"/>
+            </connections>
+            <point key="canvasLocation" x="545" y="361"/>
+        </tableViewCell>
+    </objects>
+</document>
